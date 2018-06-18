@@ -1,0 +1,18 @@
+#include <string>
+using namespace std;
+#ifndef WORKING_H
+#define WORKING_H
+class Working
+{
+private:
+  int base_salry;
+  string name;
+public:
+  Working(int _base_salary,string _name):base_salry(_base_salary),name(_name)
+  {
+      
+  }
+  
+  
+};
+#endif // WORKING_H

@@ -1,0 +1,18 @@
+#ifndef DIRECTOR_H
+#define DIRECTOR_H
+#include <QDate>
+#include "Under.h"
+class Director
+{
+private:
+    string name;
+    SubjectWorking* subWorking;
+public:
+    Director()
+    {}
+    Director(string _name):name(_name)
+    {}
+    virtual string GetName()=0;
+    virtual void SetName(string _name)=0;
+};
+#endif // DIRECTOR_H
